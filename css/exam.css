@@ -1,0 +1,104 @@
+*{
+    font-family: 'Cormorant', serif;
+}
+
+.panel{
+    margin: 5px 150px 0 150px;
+    border: none;
+}
+.panel-heading{
+    height:50px;
+}
+#ExamTable{
+    font-size: 16px;
+}
+/* add icon*/
+.material-icons.md-35 {
+    vertical-align: middle;
+    color:white;
+    width: 35px;
+    height: 35px;
+    font-size: 35px;
+    border-radius: 0.5cm;
+    margin-left: 29.6cm;
+    margin-top:-1.2cm;
+}   
+#delete:hover{
+    color:#228b22;
+}
+
+/*back icon */
+.material-icons.md-30 {
+    vertical-align: middle;
+    color: white;
+    background-color: transparent;
+    width:30px;
+    height: 30px;
+    font-size: 30px;
+    margin-top:0cm;
+} 
+
+/* edit delete */
+.material-icons.md-20{
+    font-size: 20px;
+}
+#edit{
+    color: #E1ad01;
+}
+/* publish button */
+#publish{
+    color:firebrick;
+}
+#edit:hover{
+    color:rgb(225, 173, 1,0.6);
+}
+#delete{
+    color:#006400;
+}
+#CreateExamPaperModal , #EditExamPaperModal{
+    background-color: rgb(220, 220, 220,0.3);
+}
+.modal-content{
+    color:black;
+    margin:50px 20px 0 20px;
+    border:none;
+    box-shadow: none;
+    border-radius:0.3cm;
+    height: 100%;
+}
+.modal-title{
+    text-align: center;
+}
+
+/* edit and delete button */
+#btn, #btn-close{
+    margin: 3px 50px ;
+    font-size: 16px;
+    border: none;
+    outline: none;
+    width: 15%;
+    border-radius:0.5cm;
+ }
+ #center{
+    display: flex;
+    justify-content: center;
+}
+
+.form-group{
+    margin-bottom: 10px;
+}
+
+.form-control{
+  border:none;
+  box-shadow: none;
+  background:transparent;
+  border-radius: 0%;
+  border-bottom:solid 2px black;
+}
+
+.form-control:focus-within{
+    box-shadow: none;
+}
+#heading{
+    background-color: #AE431E;
+}

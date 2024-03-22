@@ -1,0 +1,139 @@
+*{
+    font-family: 'Cormorant', serif;
+}
+/*to have an img behing the bakckground with cover full screen */
+body::before{
+  content:'';
+  background-image: url('http://localhost/ExaminationSystem/images/image2.jpg');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: fixed;
+  /*how far should element sit using offset top and left */
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  opacity:0.4;
+  z-index:-1;
+} 
+#menu{ 
+  font-size: 20px;
+  position:relative;
+  padding-top: 5px;
+  border: none;
+  background-color:white;
+  border-radius: 0%;
+  height: 65px;
+  box-shadow: 1px 1px 0.1cm gainsboro;
+}
+#myNavbar{
+  padding-left: 0%;
+}
+#burger{
+  background-color: #2F4F4F;
+}
+.icon-bar{
+  background-color: white;
+}
+#link,#link-btn{
+  font-weight: 500;
+  color: #191970;
+  background-color: transparent;
+}
+#link1{
+  display: flex;
+  justify-content: center;
+  margin-top: 5px;
+  color: #191970;
+  text-decoration: none;
+}
+#link1:hover{
+  color: #6a5acd;
+}
+#link-btn{
+  outline: none;
+  margin-top: 10px;
+  border: none;
+}
+#link:hover , #link-btn:hover{
+  color: #6a5acd;
+  border-bottom: solid 2px #191970;
+  animation:Bottom 2s;
+}
+/* animate the border of link*/
+@keyframes Bottom {
+  from {border-bottom-color: #6a5acd;}
+  to {border-bottom-color: #191970;}
+}
+ /* profile */
+#link-account{
+ margin-top: 8px;
+ margin-right: 10px;
+ background-color:transparent;
+ color: #191970;
+ border: none;
+ vertical-align: middle;
+ outline: none;
+}
+/* profile img  */
+#account-img{
+  width: 35px;
+  height: 35px;
+  border-radius: 2cm;
+}
+#exam-menu{
+  font-size:18px;
+  border-radius: 5%;
+  border:solid 1px whitesmoke;
+  text-align: center;
+ /* box-shadow: 1px 1px 0.1cm gainsboro;*/
+ box-shadow: none;
+  width: max-content;
+  height: 80px;
+}
+#account-menu{
+  width: 30rem;
+  height: auto;
+  margin-right: 10px;
+  padding: 35px 35px 15px 35px;
+  border-radius: 5%;
+  border: none;
+  font-size: 13px;
+  text-align: center;
+  box-shadow: 1px 1px 0.1cm gainsboro;
+}
+.material-icons.md-38{
+  font-size: 38px;
+  vertical-align: middle;
+}
+#profile-btn{
+  border:none;
+  background-color: #396EB0;
+  color: white;
+}
+
+#editProfile-btn{
+  border: none;
+  background-color: #316B83;
+  color: white;
+}
+#editProfile-btn , #profile-btn{
+  margin-top: 10px;
+  font-size: 16px;
+  /* which is drawn around button elements outside the borders*/
+  outline: none;
+}
+
+/* less than equal to 949  640*/
+@media(max-width:756px) {
+  #menu{ 
+    box-shadow: none;
+    height: auto;  
+  }
+  #myNavbar{
+    padding-left: 40px;
+    border-top: none;
+    box-shadow: 1px 1px 0.1cm gainsboro;
+    }
+}

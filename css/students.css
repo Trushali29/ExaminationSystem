@@ -1,0 +1,143 @@
+*{
+    font-family: 'Cormorant', serif;
+}
+
+.panel{
+    margin: 5px 150px 0 150px;
+    border: none;
+}
+.panel-heading{
+    height:50px;
+    background-color: #cd5700;
+}
+#StudentTable{
+    font-size: 17px;
+}
+/* add icon*/
+.material-icons.md-35 {
+    vertical-align: middle;
+    color: white;
+    width: 35px;
+    height: 35px;
+    font-size: 35px;
+    border-radius: 0.5cm;
+    margin-left: 30.0cm;
+    margin-top:-1.2cm;
+}   
+#delete:hover{
+    color:#228b22;
+}
+
+
+/*back icon */
+
+.material-icons.md-30 {
+    vertical-align: middle;
+    color: white;
+    background-color: transparent;
+    width:30px;
+    height: 30px;
+    font-size: 30px;
+    margin-top:0cm;
+}   
+.material-icons.md-21{
+    font-size: 21px;
+}
+#card-content{
+    margin-top: -0.3cm;
+}
+.material-icons.md-20{
+    font-size: 20px;
+    color: #E1ad01;
+}
+.material-icons.md-20:hover{
+    color:rgb(225, 173, 1,0.6);
+}
+#delete{
+    color:#006400;
+}
+#AddStudentModal , #EditStudentModal{
+    background-color: rgb(220, 220, 220,0.3);
+}
+
+.modal-content{
+    color:black;
+    margin:50px 20px 0 20px;
+    border:none;
+    box-shadow: none;
+    border-radius:0.3cm;
+    height: 100%;
+}
+.modal-title{
+    text-align: center;
+}
+/* add student */
+
+#image{
+    width:106px;
+    height: 106px;
+    border-radius: 2cm;
+}
+
+#center{
+    display: flex;
+    justify-content: center;
+}
+/* profile */
+.material-icons.md-21 {
+    background-color:whitesmoke;
+    color: #191970;
+    text-align: center;
+    padding-top: 0.1cm;
+    width:30px;
+    height: 30px;
+    font-size: 21px;
+    border-radius: 0.4cm;
+}   
+
+#edit-link{
+    margin-left: -1cm;
+    margin-top: 2.2cm;
+}
+
+/* the profile icon of student */
+.material-icons.md-23{
+    background-color:whitesmoke;
+    color: #191970;
+    text-align: center;
+    padding-top: 0.1cm;
+    width:30px;
+    height: 30px;
+    font-size: 21px;
+    border-radius: 0.4cm;
+}
+
+/* the textboxes */  
+#label{
+    font-weight: lighter;
+    font-size: 16px;
+}
+.form-group{
+    margin-bottom: 10px;
+}
+
+.form-control{
+  border:none;
+  box-shadow: none;
+  background:transparent;
+  border-radius: 0%;
+  border-bottom:solid 2px black;
+}
+
+.form-control:focus-within{
+    box-shadow: none;
+}
+
+#btnAdd,#btnEdit,#btn-close{
+   margin: 3px 50px ;
+   font-size: 16px;
+   border: none;
+   outline: none;
+   width: 15%;
+   border-radius:0.5cm;
+}

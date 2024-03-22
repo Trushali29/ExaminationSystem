@@ -1,0 +1,29 @@
+*{
+    font-family: 'Cormorant', serif;
+    color: black;
+
+}
+
+.panel{
+  margin: 10px 200px 0 200px;
+  border: none;
+}
+.panel-heading{
+  height:50px;
+}
+#myTable{
+  font-size: 17px;
+}
+#heading{
+  background-color: #66806A;
+}
+/*back icon */
+.material-icons.md-30 {
+  vertical-align: middle;
+  color: white;
+  background-color: transparent;
+  width:30px;
+  height: 30px;
+  font-size: 30px;
+  margin-top:0cm;
+}

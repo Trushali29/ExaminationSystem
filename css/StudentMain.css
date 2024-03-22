@@ -1,0 +1,140 @@
+*{
+    font-family: 'Cormorant', serif;
+    color: black;
+}
+/*to have an img behing the bakckground with cover full screen */
+body::before{
+  content:'';
+  background-image: url('http://localhost/ExaminationSystem/images/image2.jpg');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: fixed;
+  /*how far should element sit using offset top and left */
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  opacity:0.4;
+  z-index:-1;
+} 
+#menu{ 
+    font-size: 21px;
+    position:relative;
+    padding-top: 5px;
+    border: none;
+    background-color:white;
+    border-radius: 0%;
+    height: 65px;
+    box-shadow:none
+  }
+#link,#link1{
+  margin-right: 5px;
+  border: none;
+  padding-bottom: 0.2cm;
+  font-weight: 500;
+  color: #191970;
+  background-color: transparent;
+
+}
+
+#link:hover,#link1:hover{
+  color: #6a5acd;
+  border-bottom: solid 2px #191970;
+  animation:Bottom 2s;
+}
+/* animate the border of link*/
+@keyframes Bottom {
+  from {border-bottom-color: #6a5acd;}
+  to {border-bottom-color: #191970;}
+}
+
+ /* profile */
+ #link-account{
+  margin-top: 8px;
+  margin-right: 10px;
+  background-color:transparent;
+  color: #191970;
+  border: none;
+  outline: none;
+ }
+.material-icons.md-38{
+  color: #191970;
+    font-size: 38px;
+    vertical-align: middle;
+}
+   
+#account-menu{
+    width: max-content;
+    height: auto;
+    margin-right: 10px;
+    padding: 25px 40px 15px 40px;
+    border-radius: 5%;
+    border: none;
+    font-size: 13px;
+    text-align: center;
+    box-shadow: 1px 1px 0.1cm gainsboro;
+  }
+  #logout-link{
+    font-size: 15px;
+    text-decoration:none;
+    border: none;
+    background-color: #2E4C6D;
+    color: white;
+    border:solid 3px #2E4C6D;
+  }
+ 
+
+  /* Exam table */
+  
+.panel{
+  margin: 10px 200px 0 200px;
+  border: none;
+}
+.panel-heading{
+  height:50px;
+}
+.panel-body{
+  margin-top: 20px;
+}
+#StudentExamTable{
+  font-size: 16px;
+}
+#heading{
+background-color: #cd5700;
+ }
+#start-btn{
+  color: black;
+  border:solid 3px #AE431E; ;
+  background-color: none;
+  outline: none;
+}
+#start-btn:hover{
+  color: white;
+  background-color: #AE431E;
+  outline: none;
+}
+
+#completed-btn{
+  color: white;
+  border: none;
+  background-color: #22577E;
+}
+/* Create Notice modal */
+#NoticeModal{
+  background-color: rgb(220, 220, 220,0.3);
+}
+
+.modal-content{
+  margin:250px 250px 0 250px;
+  border:none;
+  box-shadow: none;
+  border-radius: 0%;
+  height: 100%;
+  width: 24%;
+}
+
+#process_image{
+  margin-left: 10px;
+}
+

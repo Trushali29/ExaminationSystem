@@ -1,0 +1,133 @@
+*{
+  font-family: 'Cormorant', serif;
+  font-size: 18px;
+}
+
+/*to have an img behing the bakckground with cover full screen */
+body::before{
+    content:'';
+    background-image: url('http://localhost/ExaminationSystem/images/image2.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: fixed;
+    /*how far should element sit using offset top and left */
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    opacity:0.4;
+    z-index:-1;
+  } 
+#menu{ 
+  position:relative;
+  padding-top: 5px;
+  border: none;
+  background-color:white;
+  border-radius: 0%;
+  height: 65px;
+  box-shadow: 1px 1px 0.1cm #aaaaaa;
+}
+
+#burger{
+  background-color: #2F4F4F;
+ 
+}
+.icon-bar{
+  background-color: white;
+}
+
+#logo{
+  font-weight: bold;
+  font-size: x-large;
+  color: #2F4F4F;
+}
+
+
+
+#signup{
+  text-align: center;
+  margin-top: 6px;
+  background-color: #F5F5F5;
+  border: none;
+  padding: 10px;
+  width: 100px;
+  border-radius: 100px;
+  color: black;
+  box-shadow: 1px 1px 0.1cm #aaaaaa;
+ 
+}
+
+#signup:hover{
+  color: #191970;
+}
+
+#login{
+  text-align: center;
+  margin-top: 6px;
+  margin-right: 20px;
+  background-color: white;
+  border: none;
+  padding: 10px;
+  width: 100px;
+  border-radius: 100px;
+  color: black;
+}
+
+#login-menu{
+  background-color:white;
+  width: 100px;
+  border: none;
+  height: 70px;
+  box-shadow: 1px 1px 0.1cm #aaaaaa;
+}
+
+#login-link{
+  font-size: 18px;
+  color:black;
+}
+
+#login-link:hover{
+  color: #191970;
+  text-decoration: none;
+  background-color: rgb(245, 245, 245,0);
+}
+
+#notice-panel{
+  /*border: solid 2px gainsboro; */
+  border-radius: none;
+  border: none;
+  /*box-shadow: 1px 1px 0.1cm gainsboro;*/
+  margin:100px 50px;
+}
+
+/* less than equal to 949  640*/
+@media(max-width:756px) {
+ 
+#menu{ 
+  box-shadow: none;
+  height: auto;  
+}
+
+#myNavbar{
+  border-top: white;
+  height: auto;
+  box-shadow: 1px 1px 0.1cm #aaaaaa;
+}
+
+#login-menu{
+  background-color: white;
+  box-shadow: none;
+  height: auto;  
+}
+
+
+#signup{
+  border: none;
+  border-radius: 0%;
+  background-color: white;
+  box-shadow: none;
+ 
+}
+}
+

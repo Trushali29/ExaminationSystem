@@ -1,0 +1,105 @@
+*{
+    font-family: 'Cormorant', serif;
+    font-size: 18px;
+  }
+  
+
+  /* hoverable sidebar 
+
+  .sidebar{
+    height:100%;
+    position: fixed;
+    top:0;
+    left:0;
+    background-color: cornflowerblue;
+    padding-top: 60px;
+    width: 85px;
+    z-index: 1;
+    transition: 0.5s;
+    overflow-x: hidden;
+    white-space: nowrap ;
+  }
+
+
+
+.sidebar {
+  height:100%;
+  position: fixed;
+  top:0;
+  left:0;
+  background-color: cornflowerblue;
+  padding-top: 60px;
+  width: 250px;
+}
+  .sidebar a{
+    text-decoration: none;
+    color: black;
+    display: block;
+  }
+  a{
+    margin:8px 8px 20px 32px ;
+  }
+  .sidebar a:hover{
+    color: white;
+    text-decoration: none;
+  }
+
+  .material-icons{
+    vertical-align: middle;
+    margin-bottom: 6px;
+    margin-right: 25px;
+  }
+
+
+*/
+
+
+.sidebar {
+  margin: 0;
+  padding: 0;
+  width: 200px;
+  background-color: #f1f1f1;
+  position: fixed;
+  height: 100%;
+  overflow: auto;
+}
+
+.sidebar a {
+  display: block;
+  color: black;
+  padding: 16px;
+  text-decoration: none;
+}
+ 
+.sidebar a.active {
+  background-color: #04AA6D;
+  color: white;
+}
+
+.sidebar a:hover:not(.active) {
+  background-color: #555;
+  color: white;
+}
+
+div.content {
+  margin-left: 200px;
+  padding: 1px 16px;
+  height: 1000px;
+}
+
+@media screen and (max-width: 700px) {
+  .sidebar {
+    width: 100%;
+    height: auto;
+    position: relative;
+  }
+  .sidebar a {float: left;}
+  div.content {margin-left: 0;}
+}
+
+@media screen and (max-width: 400px) {
+  .sidebar a {
+    text-align: center;
+    float: none;
+  }
+}
